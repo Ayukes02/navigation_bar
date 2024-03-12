@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    transition: top 0.3s;
+    position: fixed;
+    width: 100%;
+    top: -50px; /* Initially hidden */
+}
+
+.navbar.active {
+    top: 0;
+}
+
+.logo {
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.navbar-links {
+    float: right;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 50px; /* Adjust content margin to avoid overlap with navbar */
+    height: 2000px; /* Just for demonstration */
+}
